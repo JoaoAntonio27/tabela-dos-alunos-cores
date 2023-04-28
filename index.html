@@ -1,70 +1,94 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Antonio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">João Antonio</a>
+            <ul class="navbar">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#formaçoes" class="nav-link">Formaçoes</a></li>
+                <li><a href="#projetos" class="nav-link">projetos</a></li>
+            </ul>
 
-<html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-        <title>minha página</title>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-        <table>
-            <thead>
-            <tr>
-                <th>matricula</th>
-                <th>nome</th>
-                <th>nota b1</th>
-                <th>nota b2</th>
-                <th>media</th>
-                <th>quantidade de faltas</th>
-            </tr>
-            </thead>
-            <tbody>
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
 
-                <tr>
-                    <td>xxxxxxxxx</td>
-                    <td>jorge</td>
-                    <td>6</td>
-                    <td>8</td>
-                    <td>7</td>
-                    <td>3</td>
-                </tr>
-                <tr>
-                    <td>xxxxxxxxx</td>
-                    <td>leticia</td>
-                    <td>10</td>
-                <td>8</td>
-                <td>9</td>
-                <td>0</td>
-            </tr>
-            <tr>
-                <td>xxxxxxxxx</td>
-                <td>fernando</td>
-                <td>4</td>
-                <td>4</td>
-                <td>4</td>
-                <td>10</td>
-            </tr>
-            <tr>
-                <td>xxxxxxxxx</td>
-                <td>rafaela</td>
-                <td>6</td>
-                <td>10</td>
-                <td>8</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>xxxxxxxxx</td>
-                <td>Vanute rossi</td>
-                <td>0</td>
-                <td>1</td>
-                <td>0,5</td>
-                <td>500</td>
-            </tr>
-        </tbody>
+    <section class="home container" id="home"> 
+            <div class="home-content">
+                <div class="home-img">
+                    <img src="foto1.png" alt="">
+                </div>
+                <div class="home-text">
+                    <h3>Olá</h3>
+                    <h2>Eu sou <span class="color">João Antonio</span></h2>
+                    <p>
+                        Eu sou estutande de ciencia da computação da UVV e estou no primeiro periodo
+                        <br> 
+
+                    </p>
+                    <div class="social">
+                        <a href="https://www.instagram.com/ja_nap0li/"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://github.com/JoaoAntonio27"><i class='bx bxl-github'></i></i></a>
+                        <a href="https://www.twitch.tv/chocotony27"><i class='bx bxl-twitch'></i></i></a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <div class="formaçoes" id="formaçoes">
+        <figure class="figuras">
+            <img src="up.png" alt="">
+            <figcaption class="descricao">UP Centro Educacional - Escola na qual concluí o Ensino Fundamental II e o Ensino Médio. <br> 2016 - 2022</figcaption>
+        </figure>
         
-        </table>
+        <figure class="figuras">
+            <img src="renovaçao.png" alt="">
+            <figcaption class="descricao">Colégio Renovação Escola na qual concluí o Ensino Fundamental I<br> 2011 - 2015</figcaption>
+        </figure>
         
-        
-    </body>
+        <figure class="figuras">
+            <img src="uvv.png" alt="">
+            <figcaption class="descricao">Universidade de Vila Velha - Universidade em que estou graduando atualmente. </figcaption>
+        </figure>
+     </div>
+
+     <div id="projetos"><h1>Meus Projetos</h1></div>
+        <div class="container">
+            <div class="item">
+                <img id="vasco" src="vasco.png" alt="">
+              <h2>Pagina do vasco</h2>
+              <h3>Primeiro projeto feito em html</h3>
+            </div>
+            <div class="item">
+                <img id="tabela" src="tabela.png" alt="">
+              <h2>Tabela de notas dos alunos</h2>
+              <h3>Foi uma tabela que o professor Otavio Lube pediu para fazer mostrando as notas,nomes e outras informações dos alunos </h3>
+            </div>
+            <div class="item">
+                <img id="cores" src="tabelacores.png" alt=""> 
+              <h2>Tabela colorida</h2>
+              <h3>É a mesma tabela só que com cores</h3>
+            </div>
+            <div class="item">
+                <img id="prova" src="provava.png" alt=""> 
+              <h2>Prova do B1 </h2>
+              <h3>Prova do primeiro bimestres feito em sala de aula</h3>
+            </div>
+          </div>
     
-    </html>
+
+    <script src="index.js"></script>
+</body>
+</html>
